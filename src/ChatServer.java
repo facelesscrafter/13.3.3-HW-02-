@@ -11,6 +11,7 @@ public class ChatServer {
     List<Client> clients=new ArrayList<>();
     ServerSocket serverSocket;
     int clientsNum=0;
+    //добавим краски (увидеть можно в putty)
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_RED = "\u001B[31m";
     ChatServer() throws IOException {
