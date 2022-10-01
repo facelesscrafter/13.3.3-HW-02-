@@ -5,8 +5,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
-
-
+//забыла в ответе указать версию:
+//openjdk-18
 public class ChatServer {
     List<Client> clients=new ArrayList<>();
     ServerSocket serverSocket;
